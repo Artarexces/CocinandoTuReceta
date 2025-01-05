@@ -1,13 +1,10 @@
 import React from 'react'
 import './RecipeCard.css'
 
+// Tarjeta que guarda la receta + su boton para eliminar recetas 
+// Aca utilize props de otros componentes para almacenarla en receta 
+
 const RecipeCard = ({ receta, onDelete }) => {
-
-  if (!receta || !receta.name || !receta.ingredientes) {
-    console.warn('datos de receta invalidos:', receta);
-    return null;
-  }
-
   const { name, ingredientes, nutritionalScore } = receta;
 
   return (

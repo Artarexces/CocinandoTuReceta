@@ -29,6 +29,9 @@ const RecipeSummary = ({ saveRecipe, elegirIngredientes }) => {
     alert('Receta guardada exitosamente!');
   };
 
+  // Funcionalidades de guardados a base de objetos y su puntuacion cuando es ingresado cada ingrediente, este componente me costo bastante y tuve varios inconvenientes pero creo haberlo solventado de la mejor manera 
+
+
   return (
     <div className="recipe-summary">
       <h3>Ponle nombre a tu receta!</h3>

@@ -12,12 +12,16 @@ const RecipeBuilder = ({ elegirIngredientes = [], setElegirIngredientes }) => {
       )
     )
   }
+
+  //  Aprendi a utilizar operadores ternarios para simplificar el codigo y tambien por que tuve problemas con la renderizacion de este componente
+
+
   return (
     <div className='recipe-builder'>
       <h3>Ingredientes</h3>
       {elegirIngredientes.length === 0 ? (
         <p>No hay ingredientes seleccionados</p>
-      ) : (
+      ) : (  // Lo mismo con este operador ternario 
         <ul>
           {elegirIngredientes.map((ingrediente) => (
             <li key={ingrediente.name}>

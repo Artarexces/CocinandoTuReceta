@@ -3,19 +3,11 @@ import RecipeCard from './RecipeCard'
 import './RecipeHistory.css'
 
 const RecipeHistory = ({ recipes, deleteRecipe, goBack }) => {
-  // const [recipes, setRecipes] = useState([]);
 
-  // useEffect(() => {
-  //   const savedRecipe = JSON.parse(localStorage.getItem('recipes')) || [];
-  //   console.log("Recetas cargadas desde localStorage:", savedRecipe);
-  //   setRecipes(savedRecipe);
-  // }, []);
+  //Manejo del historial de recetas
 
-  // const deleteRecipe = (recipeName) => {
-  //   const updateRecipes = recipes.filter((recipe) => recipe.name !== recipeName);
-  //   setRecipes(updateRecipes);
-  //   localStorage.setItem('recipes', JSON.stringify(updateRecipes))
-  // }
+
+  //En esta parte tuve varios incovenientes por lo que tuve que optar por un modelo mas simple, ademas de implementar operadores ternarios, que me sirvieron bastante en anteriores componentes. 
 
   return (
     <div className='recipe-history'>

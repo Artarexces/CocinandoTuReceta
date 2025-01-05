@@ -22,6 +22,8 @@ const App = () => {
     localStorage.setItem('recipes', JSON.stringify(updateRecipes));
   };
 
+  //  Esto lo agruegue mucho despues crear la base del componente ya que tuve que investigar mas sobre JSON. y sus metodos 
+
   const goBack = () => setNavegate('home');
 
   return (

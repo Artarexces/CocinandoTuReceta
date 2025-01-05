@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 
+// Interfaz del usuario
+
 const Home = ({ setNavegate }) => {
   return (
     <>

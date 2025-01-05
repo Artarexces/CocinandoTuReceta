@@ -4,7 +4,7 @@ import RecipeBuilder from './RecipeBuilder'
 import RecipeSummary from './RecipeSummary'
 import './CreateRecipe.css'
 
-
+// Esta es la interfaz donde se eligen los ingredientes para la receta y donde declaro el estado el cual me deje navegar entre componentes  
 const CreateRecipe = ({ goBack, saveRecipe }) => {
 
   const [elegirIngredientes, setElegirIngredientes] = useState([])
