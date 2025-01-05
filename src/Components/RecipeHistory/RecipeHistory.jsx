@@ -19,7 +19,7 @@ const RecipeHistory = ({ recipes, deleteRecipe, goBack }) => {
 
   return (
     <div className='recipe-history'>
-      <button onClick={goBack} className='goBack-btn'>Voler</button>
+      <button onClick={goBack} className='goBack-btn'>Volver</button>
       <h3>Historial de recetas</h3>
       {recipes.length === 0 ? (
         <p>No hay recetas guardadas</p>
