@@ -24,3 +24,8 @@ El proyecto está dividido en los siguientes componentes:
 Los estilos fueron implementados de manera sencilla, priorizando la lógica y la interacción entre los componentes. La estructura de los estilos está organizada para proporcionar una experiencia de usuario clara, pero está en una etapa inicial y puede mejorarse, especialmente en la parte visual, para hacerla más atractiva y consistente en toda la aplicación.
 
 **Nota**: La interfaz de usuario se puede mejorar, sobre todo en la disposición de los elementos y el uso de colores, pero debido a limitaciones de tiempo, el enfoque principal fue en la funcionalidad y la interacción entre los componentes.
+
+
+## Despliegue
+
+La aplicación está disponible en Vercel en el siguiente enlace: [Cocinando tu receta](https://cocinando-tu-receta-omega.vercel.app/) 
